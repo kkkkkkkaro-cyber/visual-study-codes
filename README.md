@@ -99,15 +99,32 @@ No code? Send just a topic or text and the assistant suggests 2–3 fitting code
 All content in these examples is made up to show the layouts.
 示例图中的内容均为虚构，仅用于展示版式。
 
-| `/roadmap` | `/decision-matrix` |
-|---|---|
-| ![roadmap](examples/1794965912652_image.png) | ![decision-matrix](examples/1794965979252_image.png) |
-| **`/weekly-plan`** | **`/project-planner`** |
-| ![weekly-plan](examples/1794965983680_image.png) | ![project-planner](examples/1794965991369_image.png) |
-
-| `/handwritten` | `/canvas` |
-|---|---|
-| <img src="examples/1794965891438_image.png" alt="handwritten" height="380"> | <img src="examples/canvas_a4.png" alt="canvas" height="380"> |
+<table>
+  <tr>
+    <th width="50%"><code>/roadmap</code></th>
+    <th width="50%"><code>/decision-matrix</code></th>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="examples/1794965912652_image.png" alt="roadmap" width="100%"></td>
+    <td align="center" width="50%"><img src="examples/1794965979252_image.png" alt="decision-matrix" width="100%"></td>
+  </tr>
+  <tr>
+    <th width="50%"><code>/weekly-plan</code></th>
+    <th width="50%"><code>/project-planner</code></th>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="examples/1794965983680_image.png" alt="weekly-plan" width="100%"></td>
+    <td align="center" width="50%"><img src="examples/1794965991369_image.png" alt="project-planner" width="100%"></td>
+  </tr>
+  <tr>
+    <th width="50%"><code>/handwritten</code></th>
+    <th width="50%"><code>/canvas</code></th>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="examples/1794965891438_image.png" alt="handwritten" width="100%"></td>
+    <td align="center" width="50%"><img src="examples/canvas_a4.png" alt="canvas" width="100%"></td>
+  </tr>
+</table>
 
 ## License / 许可证
 
