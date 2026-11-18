@@ -87,7 +87,9 @@ All content in these examples is made up to show the layouts.
 | **`/weekly-plan`** | **`/project-planner`** |
 | ![weekly-plan](examples/1794965983680_image.png) | ![project-planner](examples/1794965991369_image.png) |
 
-<p align="center"><b><code>/handwritten</code></b><br><img src="examples/1794965891438_image.png" width="420" alt="handwritten"></p>
+| `/handwritten` | `/canvas` |
+|---|---|
+| <img src="examples/1794965891438_image.png" alt="handwritten"> | <img src="examples/canvas_a4.png" alt="canvas"> |
 
 ## License / 许可证
 
