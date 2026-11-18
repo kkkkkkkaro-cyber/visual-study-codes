@@ -1,8 +1,8 @@
 # visual-study-codes
 
-A cross-platform Agent Skill for Claude and OpenAI Codex that turns topics, source text, and personal schedules into study visuals or planners using 16 slash codes.
+A cross-platform visual-learning Agent Skill for Claude and OpenAI Codex, with a guided setup for ChatGPT. Turn topics, source text, and personal schedules into study visuals or planners using 16 slash codes.
 
-一个同时支持 Claude 和 OpenAI Codex 的跨平台 Skill：输入斜杠代码 + 主题、文本或个人计划，就能生成学习图或计划表，共 16 种版式。
+一个面向 Claude、OpenAI Codex，并提供 ChatGPT 使用指南的跨平台视觉学习 Skill：输入斜杠代码 + 主题、文本或个人计划，就能生成学习图或计划表，共 16 种版式。
 
 ## Install / 安装
 
@@ -42,6 +42,24 @@ git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes .agents/skills/
 Codex discovers skills from these locations. If the skill does not appear, restart Codex. You can explicitly invoke it with `$visual-study-codes` in Codex CLI/IDE, or use `/skills` to inspect available skills. You can also describe the visual you want and let the skill's description help Codex select it.
 
 See the [official Codex Skills documentation](https://developers.openai.com/codex/skills/) for current discovery and installation details.
+
+### ChatGPT
+
+**ChatGPT does not automatically install or load a GitHub `SKILL.md` as a native Skill.** Use the ChatGPT adaptation guide to set up the same 16 visual codes in a conversation, or add the instructions to a custom GPT.
+
+**Quick start**
+
+1. Open [CHATGPT.md](CHATGPT.md).
+2. Copy the section titled **ChatGPT master instructions** into a new ChatGPT conversation.
+3. After ChatGPT receives the instructions, enter a command such as:
+   - `/flowchart how photosynthesis works`
+   - `/timeline the history of Korean baseball`
+   - `/sketchnotes` followed by your notes or an article
+4. For repeated use, add the master instructions to the **Instructions** field when configuring a custom GPT (if custom GPT creation is available to you).
+
+This is a prompt-based adaptation, not a one-click native Skill installation. The visual codes and design rules are adapted from the shared project instructions; ChatGPT chooses an appropriate output format based on the tools available in the conversation.
+
+**中文说明：** ChatGPT 目前不会因为仓库里有 `SKILL.md` 就自动加载它。请打开 [CHATGPT.md](CHATGPT.md)，复制其中的 **ChatGPT master instructions** 到新对话，然后像平时一样输入 16 个代码。若希望重复使用，可以把指令放进自定义 GPT 的 Instructions 中（如果你的账号支持创建自定义 GPT）。
 
 ## Usage / 用法
 
