@@ -1,13 +1,14 @@
 # Install Visual Study Codes in OpenAI Codex
 
-Visual Study Codes is a portable Agent Skill. The repository's root `SKILL.md` is the skill entry point and is shared with Claude Code; Codex does not need a separate implementation.
+Visual Study Codes is a portable Agent Skill. Its root-level `SKILL.md` is the skill entry point and is shared with Claude Code; Codex does not need a separate implementation.
 
 ## User-level installation
 
 This makes the skill available across your Codex projects:
 
 ```bash
-git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.codex/skills/visual-study-codes
+mkdir -p ~/.agents/skills
+git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.agents/skills/visual-study-codes
 ```
 
 ## Project-level installation
@@ -21,7 +22,9 @@ git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes .agents/skills/
 
 ## Use
 
-After installation, restart or refresh Codex if the skill is not detected. Invoke it by naming `visual-study-codes` or by entering a supported code and topic, for example:
+Codex discovers skills in `~/.agents/skills` and project `.agents/skills` folders. If the skill does not appear, restart Codex.
+
+In Codex CLI or the IDE extension, explicitly invoke it with `$visual-study-codes`, or type `/skills` to inspect available skills. Then provide one of the 16 codes and a topic or source text, for example:
 
 - `/roadmap coffee from bean to cup`
 - `/flowchart how photosynthesis works`
