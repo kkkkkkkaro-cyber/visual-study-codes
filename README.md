@@ -1,6 +1,6 @@
 # visual-study-codes
 
-A cross-platform skill for Claude and OpenAI Codex that turns topics, source text, and personal schedules into study visuals or planners using 16 slash codes.
+A cross-platform Agent Skill for Claude and OpenAI Codex that turns topics, source text, and personal schedules into study visuals or planners using 16 slash codes.
 
 一个同时支持 Claude 和 OpenAI Codex 的跨平台 Skill：输入斜杠代码 + 主题、文本或个人计划，就能生成学习图或计划表，共 16 种版式。
 
@@ -21,12 +21,13 @@ git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.claude/skill
 
 ### OpenAI Codex
 
-Codex uses the same root-level `SKILL.md`; no separate or rewritten skill is needed.
+Codex uses the same root-level `SKILL.md`. The skill instructions and all 16 visual codes are shared; no separate implementation is needed.
 
 **Install for your user (available across projects)**
 
 ```bash
-git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.codex/skills/visual-study-codes
+mkdir -p ~/.agents/skills
+git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.agents/skills/visual-study-codes
 ```
 
 **Install for one project (available in that project)**
@@ -38,9 +39,9 @@ mkdir -p .agents/skills
 git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes .agents/skills/visual-study-codes
 ```
 
-Then restart or refresh Codex so it discovers the new skill. You can invoke it by mentioning **visual-study-codes** or by entering one of the slash codes followed by a topic, for example `/roadmap coffee from bean to cup`.
+Codex discovers skills from these locations. If the skill does not appear, restart Codex. You can explicitly invoke it with `$visual-study-codes` in Codex CLI/IDE, or use `/skills` to inspect available skills. You can also describe the visual you want and let the skill's description help Codex select it.
 
-See [Codex skill documentation](https://developers.openai.com/codex/skills/) for current discovery and installation details.
+See the [official Codex Skills documentation](https://developers.openai.com/codex/skills/) for current discovery and installation details.
 
 ## Usage / 用法
 
@@ -64,7 +65,7 @@ No code? Send just a topic or text and the assistant suggests 2–3 fitting code
 | `/decision-matrix` | Options × criteria score table with a winner<br>选项 × 指标打分表，选出赢家 | Comparing options<br>多选项比较 |
 | `/flowchart` | Top-down nodes with decision diamonds<br>自上而下节点 + 菱形判断分支 | Conditional processes<br>带条件的流程 |
 | `/infographic` | Magazine-style long page with side stats<br>杂志式长图，分段 + 侧边小数据 | Overviews<br>主题概览 |
-| `/canvas` | Business Model Canvas with sticky notes<br>商业模式画布九宫格 + 便利贴 | Business analysis<br>商业/项目分析 |
+| `/canvas` | Business Model Canvas with sticky notes<br>商业模式画布九宫格 + 便利贴 | Business analysis<br>商业分析 |
 | `/layers` | Labeled cross-section layers<br>纵向剖面分层 + 引线标注 | Layered systems<br>组成结构、分层系统 |
 | `/cycle` | Stages in a ring<br>环形阶段，箭头首尾相连 | Cycles<br>循环过程 |
 | `/diagram` | Central concept + linked parts<br>中心概念 + 组件 + 带标签连线 | Concept relations<br>概念关系 |
