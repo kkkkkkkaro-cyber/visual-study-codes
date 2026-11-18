@@ -21,11 +21,18 @@ git clone https://github.com/kkkkkkkaro-cyber/visual-study-codes ~/.claude/skill
 
 ## Usage / 用法
 
-Type a code followed by a topic, e.g. `/flowchart photosynthesis`.
-For planner codes, give your own schedule, e.g. `/weekly-plan report due Wed, run 30 min daily`.
+Type a slash code followed by your input. The input can be:
+输入斜杠代码 + 内容，内容可以是：
 
-输入代码 + 主题，例如 `/roadmap 咖啡从豆到杯`。
-计划类代码填你自己的安排，例如 `/weekly-plan 周三交报告，每天跑步 30 分钟`。
+- **Just a topic / 只给主题**: e.g. `/roadmap coffee from bean to cup`. Claude works out 4–8 key steps itself and checks numbers and dates before drawing.
+  例如 `/roadmap 咖啡从豆到杯`。Claude 会自己整理 4–8 个关键步骤再画，遇到数字、日期这类信息会先查证。
+- **A block of text / 一段文字**: e.g. `/sketchnotes` followed by your lecture notes or an article. Claude pulls out the key points and draws them.
+  例如 `/sketchnotes` 后面贴上你的课堂笔记或一段文章。它会从里面提炼要点，画成对应的图。
+- **Your own schedule / 计划类**: e.g. `/weekly-plan report due Wed, dinner with friends Fri, run 30 min daily`. Only what you give is filled in; empty slots stay blank and no tasks are invented.
+  例如 `/weekly-plan 周三交报告，周五和朋友吃饭，每天跑步30分钟`。它只用你给的安排来填表，没写到的格子会留空，不会替你编任务。
+
+No code? Send just a topic or text and Claude suggests 2–3 fitting codes. Text in the visual follows the language you write in.
+不写代码也行：只发主题或文字，Claude 会推荐 2–3 个合适的代码让你选。图里的文字跟随你输入的语言。
 
 ## Codes / 代码一览
 
