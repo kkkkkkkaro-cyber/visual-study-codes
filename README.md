@@ -107,7 +107,7 @@ All content in these examples is made up to show the layouts.
 
 | `/handwritten` | `/canvas` |
 |---|---|
-| <img src="examples/1794965891438_image.png" alt="handwritten" height="420"> | <img src="examples/canvas_a4.png" alt="canvas" height="420"> |
+| <img src="examples/1794965891438_image.png" alt="handwritten" height="380"> | <img src="examples/canvas_a4.png" alt="canvas" height="380"> |
 
 ## License / 许可证
 
