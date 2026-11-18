@@ -48,6 +48,19 @@ For planner codes, give your own schedule, e.g. `/weekly-plan report due Wed, ru
 | `/weekly-plan` | Journal-style week page + habit tracker<br>手帐风周计划页 + 习惯打卡 | Weekly planning<br>一周安排 |
 | `/project-planner` | Milestones + Gantt + task table<br>里程碑 + 甘特图 + 任务表 | Project scheduling<br>项目排期 |
 
+## Examples / 示例
+
+All content in these examples is made up to show the layouts.
+示例图中的内容均为虚构，仅用于展示版式。
+
+| `/roadmap` | `/decision-matrix` |
+|---|---|
+| ![roadmap](examples/1794965912652_image.png) | ![decision-matrix](examples/1794965979252_image.png) |
+| **`/weekly-plan`** | **`/project-planner`** |
+| ![weekly-plan](examples/1794965983680_image.png) | ![project-planner](examples/1794965991369_image.png) |
+
+<p align="center"><b><code>/handwritten</code></b><br><img src="examples/1794965891438_image.png" width="420" alt="handwritten"></p>
+
 ## License / 许可证
 
 [MIT](LICENSE)
