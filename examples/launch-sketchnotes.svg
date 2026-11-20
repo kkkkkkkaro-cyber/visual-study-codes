@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="760" viewBox="0 0 1270 760">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F5EE"/><stop offset="1" stop-color="#EEF3F1"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1B3340" flood-opacity=".10"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0 L0 6 L8 3 z" fill="#1F766D"/></marker>
+</defs>
+<rect width="1270" height="760" rx="30" fill="url(#bg)"/>
+<text x="72" y="64" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3" fill="#55716D">VISUAL STUDY CODES  /  /SKETCHNOTES</text>
+<text x="72" y="145" font-family="Arial,sans-serif" font-size="58" font-weight="800" fill="#17323B">Retrieval Practice</text>
+<text x="74" y="190" font-family="Arial,sans-serif" font-size="25" fill="#587078">Make memory work before you look again.</text>
+<rect x="72" y="235" width="1126" height="438" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="100" y="265" width="320" height="380" rx="20" fill="#EAF3F0"/>
+<text x="132" y="312" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#1F766D">THE CORE IDEA</text>
+<text x="132" y="374" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#17323B">Recall first.</text>
+<text x="132" y="416" font-family="Arial,sans-serif" font-size="23" fill="#38545C">Then check your notes.</text>
+<path d="M145 468 C185 430 240 430 280 468 S375 506 390 466" fill="none" stroke="#1F766D" stroke-width="5" stroke-linecap="round"/>
+<circle cx="145" cy="468" r="10" fill="#E6A34A"/><circle cx="390" cy="466" r="10" fill="#1F766D"/>
+<text x="132" y="548" font-family="Arial,sans-serif" font-size="18" fill="#587078">A test is not only a score.</text>
+<text x="132" y="576" font-family="Arial,sans-serif" font-size="18" fill="#587078">It can strengthen later recall.</text>
+<rect x="462" y="267" width="704" height="82" rx="16" fill="#FFF4E4"/>
+<circle cx="505" cy="308" r="21" fill="#E6A34A"/><text x="505" y="316" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">1</text>
+<text x="548" y="302" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17323B">Close the material</text>
+<text x="548" y="330" font-family="Arial,sans-serif" font-size="18" fill="#587078">Give yourself a blank page or a simple question.</text>
+<path d="M505 350 V370" stroke="#1F766D" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="462" y="379" width="704" height="82" rx="16" fill="#EAF3F0"/>
+<circle cx="505" cy="420" r="21" fill="#1F766D"/><text x="505" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">2</text>
+<text x="548" y="414" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17323B">Retrieve from memory</text>
+<text x="548" y="442" font-family="Arial,sans-serif" font-size="18" fill="#587078">Explain, sketch, or answer without peeking.</text>
+<path d="M505 462 V482" stroke="#1F766D" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="462" y="491" width="704" height="82" rx="16" fill="#EEF0FA"/>
+<circle cx="505" cy="532" r="21" fill="#7278B8"/><text x="505" y="540" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">3</text>
+<text x="548" y="526" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17323B">Check and correct</text>
+<text x="548" y="554" font-family="Arial,sans-serif" font-size="18" fill="#587078">Find gaps, then repair them with the source.</text>
+<path d="M505 574 V594" stroke="#1F766D" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="462" y="603" width="704" height="45" rx="14" fill="#17323B"/>
+<text x="814" y="633" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">4  Return after a delay — don't just cram</text>
+<text x="72" y="720" font-family="Arial,sans-serif" font-size="14" fill="#6C817F">SAMPLE OUTPUT · Based on Roediger &amp; Karpicke (2006); Dunlosky et al. (2013)</text>
+</svg>
