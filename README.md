@@ -24,7 +24,7 @@ These are sample outputs created by following the project's `SKILL.md` instructi
 - `/flowchart what should I do next in a study session`
 - `/decision-matrix compare retrieval practice, worked examples, spaced review and rereading`
 
-The learning-science content in these examples is based on [Roediger & Karpicke (2006)](https://doi.org/10.1111/j.1467-9280.2006.01693.x) and [Dunlosky et al. (2013)](https://doi.org/10.1177/1529100612453266). These sources support the example content, not claims that this Skill itself improves learning outcomes.
+The learning-science content in these examples is based on [Roediger & Karpicke (2006)](https://doi.org/10.1111/j.1467-9280.2006.01693.x), [Dunlosky et al. (2013)](https://doi.org/10.1177/1529100612453266), and [Chen et al. (2023)](https://doi.org/10.1080/01443410.2023.2273762). These sources support the example content, not claims that this Skill itself improves learning outcomes.
 
 **Try it and leave feedback:** [Open a GitHub feedback issue](https://github.com/kkkkkkkaro-cyber/visual-study-codes/issues/2).
 
