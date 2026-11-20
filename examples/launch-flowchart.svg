@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="760" viewBox="0 0 1270 760">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101F32"/><stop offset="1" stop-color="#1D3D4A"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".18"/></filter>
+  <marker id="arr" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0 L0 6 L8 3 z" fill="#8ED5C4"/></marker>
+</defs>
+<rect width="1270" height="760" rx="30" fill="url(#bg)"/>
+<text x="72" y="64" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3" fill="#8ED5C4">VISUAL STUDY CODES  /  /FLOWCHART</text>
+<text x="72" y="145" font-family="Arial,sans-serif" font-size="54" font-weight="800" fill="#FFFFFF">What should I do next?</text>
+<text x="74" y="190" font-family="Arial,sans-serif" font-size="24" fill="#B8CDD1">A simple decision path for an effective study session.</text>
+<rect x="410" y="236" width="450" height="74" rx="18" fill="#F7F4EC" filter="url(#shadow)"/>
+<text x="635" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#17323B">Can you explain it without notes?</text>
+<path d="M635 310 V355 H340 V396" stroke="#8ED5C4" stroke-width="4" fill="none" marker-end="url(#arr)"/>
+<path d="M635 310 V355 H930 V396" stroke="#8ED5C4" stroke-width="4" fill="none" marker-end="url(#arr)"/>
+<rect x="263" y="402" width="154" height="38" rx="19" fill="#286F65"/><text x="340" y="427" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">YES</text>
+<rect x="853" y="402" width="154" height="38" rx="19" fill="#B66D3D"/><text x="930" y="427" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">NOT YET</text>
+<rect x="150" y="458" width="380" height="102" rx="20" fill="#DFF3E9" filter="url(#shadow)"/>
+<text x="340" y="500" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17323B">Try a practice question</text>
+<text x="340" y="532" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#42645F">Retrieve, don't just reread.</text>
+<rect x="740" y="458" width="380" height="102" rx="20" fill="#FCEBD8" filter="url(#shadow)"/>
+<text x="930" y="500" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17323B">Study one worked example</text>
+<text x="930" y="532" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#795B43">Follow the steps, then hide it.</text>
+<path d="M340 560 V600 H635 V626" stroke="#8ED5C4" stroke-width="4" fill="none" marker-end="url(#arr)"/>
+<path d="M930 560 V600 H635 V626" stroke="#8ED5C4" stroke-width="4" fill="none" marker-end="url(#arr)"/>
+<rect x="410" y="635" width="450" height="72" rx="18" fill="#8ED5C4" filter="url(#shadow)"/>
+<text x="635" y="679" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="800" fill="#102B35">Check gaps → correct → revisit later</text>
+<text x="72" y="730" font-family="Arial,sans-serif" font-size="14" fill="#A8C0C4">SAMPLE OUTPUT · A practical workflow, not a diagnostic or a guaranteed learning formula</text>
+</svg>
