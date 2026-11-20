@@ -4,6 +4,31 @@ A cross-platform visual-learning Agent Skill for Claude and OpenAI Codex, with a
 
 一个面向 Claude、OpenAI Codex，并提供 ChatGPT 使用指南的跨平台视觉学习 Skill：输入斜杠代码 + 主题、文本或个人计划，就能生成学习图或计划表，共 16 种版式。
 
+## See it in action / 效果预览
+
+These are sample outputs created by following the project's `SKILL.md` instructions. They are demonstrations, not user testimonials.
+
+以下是按项目 `SKILL.md` 规则制作的示例输出，用于展示实际版式，不代表用户评价或第三方测试结果。
+
+| `/sketchnotes` | `/flowchart` |
+|---|---|
+| <img src="examples/launch-sketchnotes.svg" alt="Retrieval practice sketchnotes sample" width="100%"> | <img src="examples/launch-flowchart.svg" alt="Study decision flowchart sample" width="100%"> |
+
+| `/decision-matrix` |
+|---|
+| <img src="examples/launch-decision-matrix.svg" alt="Study methods decision matrix sample" width="100%"> |
+
+**Try the exact inputs / 可直接尝试：**
+
+- `/sketchnotes retrieval practice`
+- `/flowchart what should I do next in a study session`
+- `/decision-matrix compare retrieval practice, worked examples, spaced review and rereading`
+
+The learning-science content in these examples is based on [Roediger & Karpicke (2006)](https://doi.org/10.1111/j.1467-9280.2006.01693.x) and [Dunlosky et al. (2013)](https://doi.org/10.1177/1529100612453266). These sources support the example content, not claims that this Skill itself improves learning outcomes.
+
+**Try it and leave feedback:** [Open a GitHub feedback issue](https://github.com/kkkkkkkaro-cyber/visual-study-codes/issues/2).
+
+
 ## Install / 安装
 
 ### Claude
@@ -94,10 +119,11 @@ No code? Send just a topic or text and the assistant suggests 2–3 fitting code
 | `/weekly-plan` | Journal-style week page + habit tracker<br>手帐风周计划页 + 习惯打卡 | Weekly planning<br>一周安排 |
 | `/project-planner` | Milestones + Gantt + task table<br>里程碑 + 甘特图 + 任务表 | Project scheduling<br>项目排期 |
 
-## Examples / 示例
+## More layout previews / 更多版式预览
 
-All content in these examples is made up to show the layouts.
-示例图中的内容均为虚构，仅用于展示版式。
+The older images below use illustrative content to show additional layouts. The three sample outputs above use a sourced learning topic and practical study workflow.
+
+下方旧示例使用虚构内容展示其他版式；上方三个新示例则围绕有来源的学习主题和实际学习流程制作。
 
 <table>
   <tr>
