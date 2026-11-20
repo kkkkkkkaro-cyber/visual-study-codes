@@ -15,9 +15,9 @@
 
 ## Gallery order
 
-1. `assets/01-sketchnotes.svg` — real example output, retrieval-practice sketchnotes.
-2. `assets/02-flowchart.svg` — a decision flow for choosing the next study action.
-3. `assets/03-decision-matrix.svg` — compare study techniques by use case.
+1. `../examples/launch-sketchnotes.svg` — sample output: retrieval-practice sketchnotes.
+2. `../examples/launch-flowchart.svg` — a decision flow for choosing the next study action.
+3. `../examples/launch-decision-matrix.svg` — compare study techniques by use case.
 4. `assets/logo.svg` — square logo.
 
 Product Hunt's current help page recommends a 240×240 logo and a 1270×760 gallery image. The logo and gallery media must be uploaded in a supported raster format in the Product Hunt editor; these SVG masters should be exported to PNG before upload. Include at least one gallery image; three or more is preferable. See [Product Hunt's product-page guide](https://help.producthunt.com/en/articles/17834537-4-build-your-product-page).
